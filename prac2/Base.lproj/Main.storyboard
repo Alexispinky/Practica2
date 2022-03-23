@@ -129,6 +129,7 @@
                     <connections>
                         <outlet property="bAdd" destination="5af-Us-f8O" id="1iA-oK-0an"/>
                         <outlet property="ivGoodBad" destination="ZCh-Ul-zaO" id="lc6-Sc-WBO"/>
+                        <outlet property="lblPrincipal" destination="6ad-Lx-0ml" id="aze-6J-Cy7"/>
                         <outlet property="sAlfa" destination="yVH-rG-WJ1" id="Tbs-hd-9WG"/>
                         <outlet property="sCambio" destination="fBT-2U-EDY" id="uQE-KY-5nN"/>
                         <outlet property="tfcampo" destination="Gzt-Yc-saB" id="Xff-6W-Olk"/>

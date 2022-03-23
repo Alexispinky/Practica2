@@ -15,11 +15,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var sCambio: UISwitch!
     @IBOutlet weak var sAlfa: UISlider!
     @IBOutlet weak var bAdd: UIButton!
+    @IBOutlet weak var lblPrincipal: UILabel!
     var habil:Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
         tvTodo.isEditable = false
-        
+        lblPrincipal.font = UIFont(name: "caveman", size: 20)
         for fontFamilyName in UIFont.familyNames{
             for fontName in UIFont.fontNames(forFamilyName: fontFamilyName){
                 print("Family : \(fontFamilyName)      Font: \(fontName)")
